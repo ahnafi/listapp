@@ -22,6 +22,5 @@ function warna(el) {
 }
 //menghapus semua list
 clearAll.addEventListener('click',function(){
-  /*wadah.removeChild(wadah.firstChild);*/
-  alert('fitur sedang maintenance')
+  wadah.remove(wadah.children);
 });
